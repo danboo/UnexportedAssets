@@ -9,6 +9,7 @@ In my case, when I play this project in the editor (F5), I get the expected beha
 
 However, when I export the project as a "Windows Desktop" executable, and run the executable, the Godot icon is not present, and the console inicates:
 
-   ERROR: ImageLoader::load_image: Error opening file: res://assets/godot.png
+    ERROR: ImageLoader::load_image: Error opening file: res://assets/godot.png
       At: core\io\image_loader.cpp:55
 
+I tried various changes to exporting like explicitly exporting/checking all resources and adding `*.png` to the export whitelist, but neither seemed to help.
