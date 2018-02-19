@@ -3,7 +3,7 @@ This is a simple Godot project that shows an issue with assets (e.g., a .png) no
 
 May relate to this issue:
 
-https://github.com/godotengine/godot/issues/15380#issuecomment-363079727
+https://github.com/godotengine/godot/issues/15380
 
 In my case, when I play this project in the editor (F5), I get the expected behavior of having the Godot icon appear at the center of the screen.
 
